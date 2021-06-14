@@ -1,0 +1,38 @@
+.wrapper {
+  padding:20px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-gap: 3px;
+  background-color:grey;
+  width:520px;
+  
+}
+
+.biggrid {
+display:flex;
+justify-content: center;
+}
+
+.wrapper3 {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-gap: 6px;
+  justify-content: center;
+}
+
+.box {
+  padding: 45px;
+  border: 4px;
+  border-radius: 10px;
+  border-color: black;
+  border-style:solid;
+}
+
+.box3 {
+  padding: 20px;
+  border: 3px;
+  border-radius: 10px;
+  border-color: rgb(255, 252, 252);
+  border-style:solid;
+}
+
